@@ -1,0 +1,17 @@
+.input-field{
+  /* margin-left: 500px; */
+  /* margin-top: 200px; */
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.btn-primary{
+  font-size: 35px;
+  margin-bottom: 23px;
+    text-align: center;
+}
+
+.logo-div{
+  margin-bottom: 200px;
+}

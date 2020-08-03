@@ -1,0 +1,11 @@
+####Requirements without specific versions#####
+##for XSS script###
+requests == 2.24.0
+pprint == 0.1
+bs4 ==  0.0.1
+urllib3 == 1.25.10
+datetime == 4.3
+
+###for IP Address Script###
+python-nmap == 0.6.1
+tld == 0.12.2

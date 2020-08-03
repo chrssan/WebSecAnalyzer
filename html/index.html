@@ -1,0 +1,68 @@
+
+<html lang="en">
+
+  <head>
+    <title> WebSec Test</title>
+    <link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap.min.css">
+    <link rel ="stylesheet" href="css/style.css"/>
+  </head>
+
+
+    <body>
+
+    <!-- LOGO -->
+    <div class="main div">
+      <div class="logo-div"
+        <a href="#" class="brand-logo center">
+          <img src="img\Webp.net-resizeimage.jpg" style="width: 300px;">
+        </a>
+    </div>
+
+      <!-- URL INPUT FIELD -->
+        <div class="input-field">
+          <form method="post"  action="function.php" class="">
+            <span style="font-size:50px;">Enter URL:</span> <input type="text" placeholder="https://" name="weblink" style="font-size:40px;" required>
+            <button type="submit" id="abutton" class="btn btn-primary">Submit</button>
+          </form>
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-functions.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-auth.js"></script>
+
+          <script>
+          //Web App's firebase configuration
+          const firebaseConfig = {
+            apiKey: "AIzaSyCcjFjU2xkxYnnVz5RFS_DM1MYHYIFwkz4",
+            authDomain: "websecanalyzer.firebaseapp.com",
+            databaseURL: "https://websecanalyzer.firebaseio.com",
+            projectId: "websecanalyzer",
+            storageBucket: "websecanalyzer.appspot.com",
+            messagingSenderId: "694627986744",
+            appId: "1:694627986744:web:81aa99463476f692fae5cd",
+            measurementId: "G-HR349ZS1TN"
+          };
+
+          //Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+
+          //method for authentication and functions in firebase
+          const auth= firebase.auth();
+          const functions =firebase.functions();
+        </script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
+
+      </body>
+
+</html>

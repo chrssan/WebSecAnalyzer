@@ -3,7 +3,7 @@
 requests == 2.24.0
 pprint == 0.1
 bs4 ==  0.0.1
-urllib3 == 1.25.10
+urllib3 == 1.26.5
 datetime == 4.3
 
 ###for IP Address Script###
